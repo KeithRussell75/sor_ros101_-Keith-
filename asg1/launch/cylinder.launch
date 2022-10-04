@@ -1,0 +1,5 @@
+<launch>
+	<node name="radius_squared" pkg="asg1" type="asg_01_radius_squarer.py"/>
+	<node name="cylinder_calc" pkg="asg1" type="asg_01_cylinder_calc.py" />
+	<node name="weight_calc" pkg="asg1" type="asg_o1_weight_Calc.py" />
+</launch>
